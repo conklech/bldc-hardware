@@ -59,6 +59,8 @@ F 0 "R3" V 2000 1950 50  0000 C CNN
 F 1 "39k" V 2050 2150 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2050 2150 60  0001 C CNN
 F 3 "" H 2050 2150 60  0001 C CNN
+F 4 "RMCF0805JT39K0CT-ND" H 0   0   50  0001 C CNN "digikey#"
+F 5 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=1c0011%2C1c0002%2C1c00fa%2C1c0003%2C1c0006%2C1c0008%2C400006%2C1f140000%2Cffe00034%2Cmu39kOhms%7C2085%7C0%2Cmu39kOhms%7C2085%7C1&quantity=0&ColumnSort=1000011&page=1&stock=1&pageSize=100" H 0   0   50  0001 C CNN "digikey-search"
 	1    2050 2150
 	0    -1   1    0   
 $EndComp
@@ -1264,6 +1266,8 @@ F 0 "R2" V 3030 6800 40  0000 C CNN
 F 1 "10k" V 2957 6801 40  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2880 6800 30  0001 C CNN
 F 3 "" H 2950 6800 30  0000 C CNN
+F 4 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=&pkeyword=&wrapfilterschooser=1&sv=0&pv16=6&sf=1&FV=1c0011%2C1c0002%2C1c00fa%2C1c0003%2C1c0006%2C1c0008%2C1f140000%2Cffe00034%2Cmu10+kOhms%7C2085&ColumnSort=0&page=1&stock=1&quantity=&pageSize=100" H 0   0   50  0001 C CNN "digikey-search"
+F 5 "RMCF0805JT10K0CT-ND" H 0   0   50  0001 C CNN "digikey#"
 	1    2950 6800
 	0    -1   -1   0   
 $EndComp
@@ -1429,7 +1433,7 @@ U 1 1 5CE20F1F
 P 8100 1400
 F 0 "C20" H 8012 1446 50  0000 R CNN
 F 1 "220u 50V" H 8012 1355 50  0000 R CNN
-F 2 "" H 8100 1400 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 8100 1400 50  0001 C CNN
 F 3 "~" H 8100 1400 50  0001 C CNN
 F 4 "Cbulk" H 0   0   50  0001 C CNN "Identifier"
 F 5 "1189-1759-ND" H 0   0   50  0001 C CNN "digikey#"
@@ -1444,7 +1448,7 @@ U 1 1 5CE21795
 P 8400 1400
 F 0 "C21" H 8488 1446 50  0000 L CNN
 F 1 "220u 50V" H 8488 1355 50  0000 L CNN
-F 2 "" H 8400 1400 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 8400 1400 50  0001 C CNN
 F 3 "~" H 8400 1400 50  0001 C CNN
 F 4 "Cbulk" H 0   0   50  0001 C CNN "Identifier"
 F 5 "1189-1759-ND" H 0   0   50  0001 C CNN "digikey#"

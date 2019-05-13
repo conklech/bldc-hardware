@@ -14,185 +14,13 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L BLDC_4-rescue:R-RESCUE-BLDC_4 R46
-U 1 1 53F8E60B
-P 7850 4050
-F 0 "R46" V 7950 4050 50  0000 C CNN
-F 1 "39k" V 7850 4050 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7850 4050 60  0001 C CNN
-F 3 "" H 7850 4050 60  0001 C CNN
-	1    7850 4050
-	0    1    1    0   
-$EndComp
-$Comp
-L BLDC_4-rescue:R-RESCUE-BLDC_4 R30
-U 1 1 53F8E612
-P 4700 4050
-F 0 "R30" V 4800 4050 50  0000 C CNN
-F 1 "39k" V 4700 4050 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4700 4050 60  0001 C CNN
-F 3 "" H 4700 4050 60  0001 C CNN
-	1    4700 4050
-	0    1    1    0   
-$EndComp
-$Comp
-L BLDC_4-rescue:MOSFET_N Q2
-U 1 1 53F8E644
-P 4950 3750
-F 0 "Q2" H 4960 3920 60  0000 R CNN
-F 1 "IRFS7530" V 5150 4050 60  0000 R CNN
-F 2 "CRF1:D2PAK-7-GDS" H 4950 3750 60  0001 C CNN
-F 3 "" H 4950 3750 60  0001 C CNN
-	1    4950 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L BLDC_4-rescue:R-RESCUE-BLDC_4 R29
-U 1 1 53F8E64B
-P 4400 3750
-F 0 "R29" V 4500 3750 50  0000 C CNN
-F 1 "4R7" V 4400 3750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4400 3750 60  0001 C CNN
-F 3 "" H 4400 3750 60  0001 C CNN
-	1    4400 3750
-	0    1    1    0   
-$EndComp
-$Comp
-L BLDC_4-rescue:R-RESCUE-BLDC_4 R28
-U 1 1 53F8E652
-P 4400 2800
-F 0 "R28" V 4500 2800 50  0000 C CNN
-F 1 "4R7" V 4400 2800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4400 2800 60  0001 C CNN
-F 3 "" H 4400 2800 60  0001 C CNN
-	1    4400 2800
-	0    1    1    0   
-$EndComp
-$Comp
-L BLDC_4-rescue:R-RESCUE-BLDC_4 R34
-U 1 1 53F8E65E
-P 6050 3000
-F 0 "R34" V 6150 3000 50  0000 C CNN
-F 1 "4R7" V 6050 3000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6050 3000 60  0001 C CNN
-F 3 "" H 6050 3000 60  0001 C CNN
-	1    6050 3000
-	0    1    1    0   
-$EndComp
-$Comp
-L BLDC_4-rescue:R-RESCUE-BLDC_4 R35
-U 1 1 53F8E665
-P 5950 3750
-F 0 "R35" V 6050 3750 50  0000 C CNN
-F 1 "4R7" V 5950 3750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5950 3750 60  0001 C CNN
-F 3 "" H 5950 3750 60  0001 C CNN
-	1    5950 3750
-	0    1    1    0   
-$EndComp
-$Comp
-L BLDC_4-rescue:MOSFET_N Q4
-U 1 1 53F8E66C
-P 6500 3750
-F 0 "Q4" H 6510 3920 60  0000 R CNN
-F 1 "IRFS7530" V 6700 4050 60  0000 R CNN
-F 2 "CRF1:D2PAK-7-GDS" H 6500 3750 60  0001 C CNN
-F 3 "" H 6500 3750 60  0001 C CNN
-	1    6500 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L BLDC_4-rescue:MOSFET_N Q3
-U 1 1 53F8E673
-P 6500 2800
-F 0 "Q3" H 6510 2970 60  0000 R CNN
-F 1 "IRFS7530" V 6700 2850 60  0000 R CNN
-F 2 "CRF1:D2PAK-7-GDS" H 6500 2800 60  0001 C CNN
-F 3 "" H 6500 2800 60  0001 C CNN
-	1    6500 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L BLDC_4-rescue:MOSFET_N Q5
-U 1 1 53F8E67A
-P 8100 2800
-F 0 "Q5" H 8110 2970 60  0000 R CNN
-F 1 "IRFS7530" V 8300 2900 60  0000 R CNN
-F 2 "CRF1:D2PAK-7-GDS" H 8100 2800 60  0001 C CNN
-F 3 "" H 8100 2800 60  0001 C CNN
-	1    8100 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L BLDC_4-rescue:MOSFET_N Q6
-U 1 1 53F8E681
-P 8100 3750
-F 0 "Q6" H 8110 3920 60  0000 R CNN
-F 1 "IRFS7530" V 8300 4000 60  0000 R CNN
-F 2 "CRF1:D2PAK-7-GDS" H 8100 3750 60  0001 C CNN
-F 3 "" H 8100 3750 60  0001 C CNN
-	1    8100 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L BLDC_4-rescue:R-RESCUE-BLDC_4 R43
-U 1 1 53F8E688
-P 7550 3750
-F 0 "R43" V 7650 3750 50  0000 C CNN
-F 1 "4R7" V 7550 3750 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7550 3750 60  0001 C CNN
-F 3 "" H 7550 3750 60  0001 C CNN
-	1    7550 3750
-	0    1    1    0   
-$EndComp
-$Comp
-L BLDC_4-rescue:R-RESCUE-BLDC_4 R42
-U 1 1 53F8E68F
-P 7550 3000
-F 0 "R42" V 7650 3000 50  0000 C CNN
-F 1 "4R7" V 7550 3000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7550 3000 60  0001 C CNN
-F 3 "" H 7550 3000 60  0001 C CNN
-	1    7550 3000
-	0    1    1    0   
-$EndComp
-$Comp
-L BLDC_4-rescue:R-RESCUE-BLDC_4 R36
-U 1 1 53F8E69C
-P 5950 4050
-F 0 "R36" V 5850 4050 50  0000 C CNN
-F 1 "39k" V 5950 4050 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5950 4050 60  0001 C CNN
-F 3 "" H 5950 4050 60  0001 C CNN
-	1    5950 4050
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	8100 4050 8200 4050
-Wire Wire Line
-	4950 4050 5050 4050
 Wire Wire Line
 	7250 3750 7300 3750
 Wire Wire Line
-	4050 3750 4150 3750
-Wire Wire Line
 	5650 3750 5700 3750
-Wire Wire Line
-	5700 3000 5800 3000
-Wire Wire Line
-	7200 3000 7300 3000
-Wire Wire Line
-	5050 3950 5050 4050
 Connection ~ 6600 2200
 Wire Wire Line
-	8200 3950 8200 4050
-Wire Wire Line
-	8200 3000 8200 3300
-Wire Wire Line
-	7800 2800 7900 2800
-Wire Wire Line
-	7800 3750 7850 3750
+	8200 3150 8200 3300
 Wire Wire Line
 	8100 3300 8200 3300
 Connection ~ 8200 3300
@@ -200,15 +28,7 @@ Connection ~ 6600 3300
 Wire Wire Line
 	6500 3300 6600 3300
 Wire Wire Line
-	6200 3750 6250 3750
-Wire Wire Line
-	6600 3000 6600 3300
-Wire Wire Line
-	5050 3000 5050 3300
-Wire Wire Line
-	4650 2800 4750 2800
-Wire Wire Line
-	4650 3750 4700 3750
+	5050 3200 5050 3300
 Wire Wire Line
 	4950 3300 5050 3300
 Connection ~ 5050 3300
@@ -216,46 +36,26 @@ Wire Wire Line
 	5050 2050 5050 2200
 Connection ~ 5050 2200
 Wire Wire Line
-	4050 2800 4150 2800
-Wire Wire Line
 	5050 2200 6600 2200
-Wire Wire Line
-	7850 3750 7850 3900
-Wire Wire Line
-	7850 3900 7450 3900
-Wire Wire Line
-	7450 3900 7450 4050
-Wire Wire Line
-	7450 4050 7600 4050
-Connection ~ 7850 3750
-Connection ~ 8200 4050
-Connection ~ 5050 4050
-Connection ~ 6250 3750
-Wire Wire Line
-	6200 4050 6250 4050
-Wire Wire Line
-	6250 4050 6250 3750
 Text GLabel 5050 2050 2    60   Input ~ 0
 V_SUPPLY
-Wire Wire Line
-	6600 3950 6600 4500
-Text HLabel 4050 2800 0    60   Input ~ 0
+Text HLabel 4500 3000 0    60   Input ~ 0
 M_H1
-Text HLabel 4050 3750 0    60   Input ~ 0
+Text HLabel 4550 3750 0    60   Input ~ 0
 M_L1
 Text HLabel 4950 3300 0    60   Output ~ 0
 H1_VS
-Text HLabel 5700 3000 0    60   Input ~ 0
+Text HLabel 6250 2950 0    60   Input ~ 0
 M_H2
-Text HLabel 5650 3750 0    60   Input ~ 0
+Text HLabel 6200 3750 0    60   Input ~ 0
 M_L2
 Text HLabel 6500 3300 0    60   Output ~ 0
 H2_VS
 Text HLabel 8100 3300 0    60   Output ~ 0
 H3_VS
-Text HLabel 7200 3000 0    60   Input ~ 0
+Text HLabel 7850 2950 0    60   Input ~ 0
 M_H3
-Text HLabel 7250 3750 0    60   Input ~ 0
+Text HLabel 7850 3750 0    60   Input ~ 0
 M_L3
 Text HLabel 5200 3300 2    60   Output ~ 0
 PHASE_1
@@ -1221,15 +1021,6 @@ A2 DB A5 0E 1C 38 E0 16 C0 12 58 96 15 77 F6 0A 4F DD 5E 07 00 58 7B 10 AB 00 00
 82 
 EndData
 $EndBitmap
-Connection ~ 4700 3750
-Wire Wire Line
-	4700 3750 4700 3900
-Wire Wire Line
-	4700 3900 4350 3900
-Wire Wire Line
-	4350 3900 4350 4050
-Wire Wire Line
-	4350 4050 4450 4050
 Wire Wire Line
 	6600 2200 8200 2200
 Wire Wire Line
@@ -1246,46 +1037,6 @@ Wire Wire Line
 	5050 3300 5200 3300
 Wire Wire Line
 	7850 3750 7900 3750
-Wire Wire Line
-	8200 4050 8200 4500
-Wire Wire Line
-	5050 4050 5700 4050
-Wire Wire Line
-	5050 4050 5050 4500
-Wire Wire Line
-	6250 3750 6300 3750
-Wire Wire Line
-	4700 3750 4750 3750
-$Comp
-L crf_1:SHUNT R?
-U 1 1 5D7BBF03
-P 5050 4750
-AR Path="/5D7BBF03" Ref="R?"  Part="1" 
-AR Path="/53F826DC/5D7BBF03" Ref="R5"  Part="1" 
-F 0 "R5" V 5130 4750 50  0000 C CNN
-F 1 "SHUNT" V 5050 4750 50  0000 C CNN
-F 2 "CRF1:WSLP2726" H 5050 4750 60  0001 C CNN
-F 3 "" H 5050 4750 60  0001 C CNN
-	1    5050 4750
-	1    0    0    -1  
-$EndComp
-Text HLabel 4750 4650 0    60   Output ~ 0
-SH1+
-Text HLabel 4750 4850 0    60   Output ~ 0
-SH1-
-$Comp
-L power:GNDPWR #PWR01
-U 1 1 5D7BF5E5
-P 5050 5150
-F 0 "#PWR01" H 5050 4950 50  0001 C CNN
-F 1 "GNDPWR" H 5054 4996 50  0000 C CNN
-F 2 "" H 5050 5100 50  0001 C CNN
-F 3 "" H 5050 5100 50  0001 C CNN
-	1    5050 5150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5050 5150 5050 5000
 Text HLabel 4450 2550 0    60   Output ~ 0
 VDRAIN
 $Comp
@@ -1293,32 +1044,19 @@ L Device:Net-Tie_2 NT6
 U 1 1 5D7CBF74
 P 4700 2550
 F 0 "NT6" H 4700 2731 50  0000 C CNN
-F 1 "Net-Tie_2" H 4700 2640 50  0000 C CNN
-F 2 "NetTie:NetTie-2_SMD_Pad0.5mm" H 4700 2550 50  0001 C CNN
+F 1 "Net-Tie_8mil" H 4700 2640 50  0000 C CNN
+F 2 "CRF1:NetTie-2_SMD_Pad-8mil" H 4700 2550 50  0001 C CNN
 F 3 "~" H 4700 2550 50  0001 C CNN
 	1    4700 2550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4600 2550 4450 2550
-$Comp
-L BLDC_4-rescue:MOSFET_N Q1
-U 1 1 53F8E63D
-P 4950 2800
-F 0 "Q1" H 4960 2970 60  0000 R CNN
-F 1 "IRFS7530" V 5150 2950 60  0000 R CNN
-F 2 "CRF1:D2PAK-7-GDS" H 4950 2800 60  0001 C CNN
-F 3 "" H 4950 2800 60  0001 C CNN
-	1    4950 2800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5050 2200 5050 2250
 Wire Wire Line
 	4800 2550 5050 2550
 Connection ~ 5050 2550
 Wire Wire Line
-	5050 2550 5050 2600
+	5050 2550 5050 2800
 $Comp
 L Device:C_Small C19
 U 1 1 5D7D6D07
@@ -1330,17 +1068,6 @@ F 3 "~" H 5450 2500 50  0001 C CNN
 F 4 "445-4467-1-ND" H 0   0   50  0001 C CNN "digikey#"
 F 5 "C3216X7R2A105K160AA" H 0   0   50  0001 C CNN "manf#"
 	1    5450 2500
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:Net-Tie_2 NT7
-U 1 1 5D7D77A5
-P 5050 2350
-F 0 "NT7" H 5050 2531 50  0001 C CNN
-F 1 "Net-Tie_2" H 5050 2440 50  0001 C CNN
-F 2 "NetTie:NetTie-2_SMD_Pad0.5mm" H 5050 2350 50  0001 C CNN
-F 3 "~" H 5050 2350 50  0001 C CNN
-	1    5050 2350
 	0    1    1    0   
 $EndComp
 Connection ~ 5050 2500
@@ -1357,58 +1084,25 @@ F 3 "" H 5550 2450 50  0001 C CNN
 	1    5550 2500
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	8200 2200 8200 2250
 Connection ~ 8200 2500
 Wire Wire Line
-	8200 2500 8200 2600
-Wire Wire Line
-	6600 2200 6600 2250
+	8200 2500 8200 2750
 Connection ~ 6600 2500
 Wire Wire Line
-	6600 2500 6600 2600
+	6600 2500 6600 2750
 $Comp
-L crf_1:SHUNT R?
-U 1 1 5D7E3DD9
-P 6600 4750
-AR Path="/5D7E3DD9" Ref="R?"  Part="1" 
-AR Path="/53F826DC/5D7E3DD9" Ref="R9"  Part="1" 
-F 0 "R9" V 6680 4750 50  0000 C CNN
-F 1 "SHUNT" V 6600 4750 50  0000 C CNN
-F 2 "CRF1:WSLP2726" H 6600 4750 60  0001 C CNN
-F 3 "" H 6600 4750 60  0001 C CNN
-	1    6600 4750
-	1    0    0    -1  
-$EndComp
-Text HLabel 6300 4850 0    60   Output ~ 0
-SH2-
-Text HLabel 6300 4650 0    60   Output ~ 0
-SH2+
-$Comp
-L power:GNDPWR #PWR09
-U 1 1 5D7E7410
-P 6600 5100
-F 0 "#PWR09" H 6600 4900 50  0001 C CNN
-F 1 "GNDPWR" H 6604 4946 50  0000 C CNN
-F 2 "" H 6600 5050 50  0001 C CNN
-F 3 "" H 6600 5050 50  0001 C CNN
-	1    6600 5100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6600 5100 6600 5000
-$Comp
-L crf_1:SHUNT R?
+L Device:R_Shunt R?
 U 1 1 5D7EA730
 P 8200 4750
 AR Path="/5D7EA730" Ref="R?"  Part="1" 
 AR Path="/53F826DC/5D7EA730" Ref="R10"  Part="1" 
-F 0 "R10" V 8280 4750 50  0000 C CNN
-F 1 "SHUNT" V 8200 4750 50  0000 C CNN
-F 2 "CRF1:WSLP2726" H 8200 4750 60  0001 C CNN
+F 0 "R10" H 8112 4796 50  0000 R CNN
+F 1 "R010 1%" H 8112 4705 50  0000 R CNN
+F 2 "CRF1:R_2010_Shunt_HandSolder" H 8200 4750 60  0001 C CNN
 F 3 "" H 8200 4750 60  0001 C CNN
+F 4 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=&pkeyword=Current+Sense+Resistors&wrapfilterschooser=0&sv=0&pv16=12982&sf=0&FV=c0001%2C1c0011%2C1c0002%2C1c0003%2C1f140000%2Cmu1mOhms%7C2085%7C0%2Cmu20mOhms%7C2085%7C1%2Cffe00034&ColumnSort=1000011&page=1&stock=1&quantity=10&pageSize=100" V 8200 4750 50  0001 C CNN "digikey-search"
 	1    8200 4750
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Text HLabel 7900 4850 0    60   Output ~ 0
 SH3-
@@ -1425,10 +1119,6 @@ F 3 "" H 8200 5050 50  0001 C CNN
 	1    8200 5100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8200 5100 8200 5000
-Wire Wire Line
-	5050 2450 5050 2500
 $Comp
 L Device:C_Small C?
 U 1 1 5CE4A1B8
@@ -1447,8 +1137,6 @@ F 6 "CL10B104KB8NNNC" H 0   0   50  0001 C CNN "manf#"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6300 2800 6300 3000
-Wire Wire Line
 	5050 2500 5350 2500
 Wire Wire Line
 	5350 2650 5350 2500
@@ -1456,37 +1144,6 @@ Connection ~ 5350 2500
 Wire Wire Line
 	5550 2500 5550 2650
 Connection ~ 5550 2500
-Wire Wire Line
-	7800 3000 7900 3000
-Wire Wire Line
-	7900 3000 7900 2800
-Connection ~ 7900 2800
-$Comp
-L Device:Net-Tie_2 NT8
-U 1 1 5CE5851F
-P 6600 2350
-F 0 "NT8" H 6600 2531 50  0001 C CNN
-F 1 "Net-Tie_2" H 6600 2440 50  0001 C CNN
-F 2 "NetTie:NetTie-2_SMD_Pad0.5mm" H 6600 2350 50  0001 C CNN
-F 3 "~" H 6600 2350 50  0001 C CNN
-	1    6600 2350
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6600 2450 6600 2500
-$Comp
-L Device:Net-Tie_2 NT9
-U 1 1 5CE588AD
-P 8200 2350
-F 0 "NT9" H 8200 2531 50  0001 C CNN
-F 1 "Net-Tie_2" H 8200 2440 50  0001 C CNN
-F 2 "NetTie:NetTie-2_SMD_Pad0.5mm" H 8200 2350 50  0001 C CNN
-F 3 "~" H 8200 2350 50  0001 C CNN
-	1    8200 2350
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	8200 2450 8200 2500
 $Comp
 L Device:C_Small C25
 U 1 1 5CE6066D
@@ -1585,4 +1242,184 @@ Wire Wire Line
 	6600 2500 6950 2500
 Wire Wire Line
 	8200 2500 8550 2500
+$Comp
+L Transistor_FET:CSD19531Q5A Q6
+U 1 1 5CE79E7C
+P 8100 3750
+F 0 "Q6" H 8306 3796 50  0000 L CNN
+F 1 "CSD19531Q5A" H 8306 3705 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TDSON-8-1" H 8300 3675 50  0001 L CIN
+F 3 "http://www.ti.com/lit/gpn/csd19531q5a" V 8100 3750 50  0001 L CNN
+F 4 "296-41232-1-ND" H 0   0   50  0001 C CNN "digikey#"
+F 5 "CSD19531Q5A" H 0   0   50  0001 C CNN "manf#"
+	1    8100 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:CSD19531Q5A Q1
+U 1 1 5CE7BCC0
+P 4950 3000
+F 0 "Q1" H 5156 3046 50  0000 L CNN
+F 1 "CSD19531Q5A" H 5156 2955 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TDSON-8-1" H 5150 2925 50  0001 L CIN
+F 3 "http://www.ti.com/lit/gpn/csd19531q5a" V 4950 3000 50  0001 L CNN
+F 4 "296-41232-1-ND" H 0   200 50  0001 C CNN "digikey#"
+F 5 "CSD19531Q5A" H 0   200 50  0001 C CNN "manf#"
+	1    4950 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:CSD19531Q5A Q3
+U 1 1 5CE833F9
+P 6500 2950
+F 0 "Q3" H 6706 2996 50  0000 L CNN
+F 1 "CSD19531Q5A" H 6706 2905 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TDSON-8-1" H 6700 2875 50  0001 L CIN
+F 3 "http://www.ti.com/lit/gpn/csd19531q5a" V 6500 2950 50  0001 L CNN
+F 4 "296-41232-1-ND" H 0   150 50  0001 C CNN "digikey#"
+F 5 "CSD19531Q5A" H 0   150 50  0001 C CNN "manf#"
+	1    6500 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 3150 6600 3300
+Wire Wire Line
+	4500 3000 4750 3000
+Wire Wire Line
+	6300 2950 6250 2950
+$Comp
+L Transistor_FET:CSD19531Q5A Q2
+U 1 1 5CE805C2
+P 4950 3750
+F 0 "Q2" H 5156 3796 50  0000 L CNN
+F 1 "CSD19531Q5A" H 5156 3705 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TDSON-8-1" H 5150 3675 50  0001 L CIN
+F 3 "http://www.ti.com/lit/gpn/csd19531q5a" V 4950 3750 50  0001 L CNN
+F 4 "296-41232-1-ND" H 0   0   50  0001 C CNN "digikey#"
+F 5 "CSD19531Q5A" H 0   0   50  0001 C CNN "manf#"
+	1    4950 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 3750 4750 3750
+Wire Wire Line
+	6200 3750 6300 3750
+$Comp
+L Transistor_FET:CSD19531Q5A Q4
+U 1 1 5CE8764C
+P 6500 3750
+F 0 "Q4" H 6706 3796 50  0000 L CNN
+F 1 "CSD19531Q5A" H 6706 3705 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TDSON-8-1" H 6700 3675 50  0001 L CIN
+F 3 "http://www.ti.com/lit/gpn/csd19531q5a" V 6500 3750 50  0001 L CNN
+F 4 "296-41232-1-ND" H 0   0   50  0001 C CNN "digikey#"
+F 5 "CSD19531Q5A" H 0   0   50  0001 C CNN "manf#"
+	1    6500 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 2950 7900 2950
+$Comp
+L Transistor_FET:CSD19531Q5A Q5
+U 1 1 5CE8AF20
+P 8100 2950
+F 0 "Q5" H 8306 2996 50  0000 L CNN
+F 1 "CSD19531Q5A" H 8306 2905 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TDSON-8-1" H 8300 2875 50  0001 L CIN
+F 3 "http://www.ti.com/lit/gpn/csd19531q5a" V 8100 2950 50  0001 L CNN
+F 4 "296-41232-1-ND" H 0   150 50  0001 C CNN "digikey#"
+F 5 "CSD19531Q5A" H 0   150 50  0001 C CNN "manf#"
+	1    8100 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 2200 5050 2500
+Wire Wire Line
+	8200 2450 8200 2500
+Wire Wire Line
+	8200 2200 8200 2500
+Wire Wire Line
+	6600 2200 6600 2500
+Wire Wire Line
+	8200 3950 8200 4550
+Text HLabel 6300 4850 0    60   Output ~ 0
+SH2-
+Text HLabel 6300 4650 0    60   Output ~ 0
+SH2+
+$Comp
+L power:GNDPWR #PWR0105
+U 1 1 5CF194E7
+P 6600 5100
+F 0 "#PWR0105" H 6600 4900 50  0001 C CNN
+F 1 "GNDPWR" H 6604 4946 50  0000 C CNN
+F 2 "" H 6600 5050 50  0001 C CNN
+F 3 "" H 6600 5050 50  0001 C CNN
+	1    6600 5100
+	1    0    0    -1  
+$EndComp
+Text HLabel 4750 4850 0    60   Output ~ 0
+SH1-
+Text HLabel 4750 4650 0    60   Output ~ 0
+SH1+
+$Comp
+L power:GNDPWR #PWR0106
+U 1 1 5CF1B3D6
+P 5050 5100
+F 0 "#PWR0106" H 5050 4900 50  0001 C CNN
+F 1 "GNDPWR" H 5054 4946 50  0000 C CNN
+F 2 "" H 5050 5050 50  0001 C CNN
+F 3 "" H 5050 5050 50  0001 C CNN
+	1    5050 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 4950 8200 5100
+Wire Wire Line
+	8050 4650 7900 4650
+Wire Wire Line
+	8050 4850 7900 4850
+$Comp
+L Device:R_Shunt R?
+U 1 1 5CF45E80
+P 6600 4750
+AR Path="/5CF45E80" Ref="R?"  Part="1" 
+AR Path="/53F826DC/5CF45E80" Ref="R9"  Part="1" 
+F 0 "R9" H 6512 4796 50  0000 R CNN
+F 1 "R010 1%" H 6512 4705 50  0000 R CNN
+F 2 "CRF1:R_2010_Shunt_HandSolder" H 6600 4750 60  0001 C CNN
+F 3 "" H 6600 4750 60  0001 C CNN
+F 4 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=&pkeyword=Current+Sense+Resistors&wrapfilterschooser=0&sv=0&pv16=12982&sf=0&FV=c0001%2C1c0011%2C1c0002%2C1c0003%2C1f140000%2Cmu1mOhms%7C2085%7C0%2Cmu20mOhms%7C2085%7C1%2Cffe00034&ColumnSort=1000011&page=1&stock=1&quantity=10&pageSize=100" V 6600 4750 50  0001 C CNN "digikey-search"
+	1    6600 4750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6600 3950 6600 4550
+Wire Wire Line
+	6600 4950 6600 5100
+Wire Wire Line
+	6450 4650 6300 4650
+Wire Wire Line
+	6450 4850 6300 4850
+$Comp
+L Device:R_Shunt R?
+U 1 1 5CF46C79
+P 5050 4750
+AR Path="/5CF46C79" Ref="R?"  Part="1" 
+AR Path="/53F826DC/5CF46C79" Ref="R5"  Part="1" 
+F 0 "R5" H 4962 4796 50  0000 R CNN
+F 1 "R010 1%" H 4962 4705 50  0000 R CNN
+F 2 "CRF1:R_2010_Shunt_HandSolder" H 5050 4750 60  0001 C CNN
+F 3 "" H 5050 4750 60  0001 C CNN
+F 4 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=&pkeyword=Current+Sense+Resistors&wrapfilterschooser=0&sv=0&pv16=12982&sf=0&FV=c0001%2C1c0011%2C1c0002%2C1c0003%2C1f140000%2Cmu1mOhms%7C2085%7C0%2Cmu20mOhms%7C2085%7C1%2Cffe00034&ColumnSort=1000011&page=1&stock=1&quantity=10&pageSize=100" V 5050 4750 50  0001 C CNN "digikey-search"
+	1    5050 4750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 3950 5050 4550
+Wire Wire Line
+	5050 4950 5050 5100
+Wire Wire Line
+	4900 4650 4750 4650
+Wire Wire Line
+	4900 4850 4750 4850
 $EndSCHEMATC

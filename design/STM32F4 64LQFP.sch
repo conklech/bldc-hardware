@@ -4180,9 +4180,12 @@ U 1 1 540978A3
 P 7750 2050
 F 0 "X2" H 7750 2140 30  0000 C CNN
 F 1 "8MHz 10ppm" H 7800 1950 30  0000 L CNN
-F 2 "CRF1:Crystal_5x3mm" H 7750 2050 60  0001 C CNN
+F 2 "Crystal:Crystal_SMD_HC49-SD_HandSoldering" H 7750 2050 60  0001 C CNN
 F 3 "" H 7750 2050 60  0000 C CNN
 F 4 "ABM3B-8.0-10-1UT" H 7750 2050 60  0001 C CNN "mfg#"
+F 5 "887-1263-1-ND" H 0   0   50  0001 C CNN "digikey#"
+F 6 "https://www.digikey.com/products/en/crystals-oscillators-resonators/crystals/171?k=&pkeyword=&wrapfilterschooser=1&sv=0&pv7=2&pv1989=0&sf=0&FV=1140003%2C3f40013%2Cmu8MHz%7C2150%2Cffe000ab&ColumnSort=1000011&page=1&stock=1&quantity=1&pageSize=100" H 0   0   50  0001 C CNN "digikey-search"
+F 7 "9C-8.000MEEJ-T" H 0   0   50  0001 C CNN "manf#"
 	1    7750 2050
 	1    0    0    -1  
 $EndComp
@@ -4229,6 +4232,8 @@ F 0 "R16" V 2150 2800 50  0000 C CNN
 F 1 "39k" V 2250 2800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2250 2800 60  0001 C CNN
 F 3 "" H 2250 2800 60  0001 C CNN
+F 4 "RMCF0805JT39K0CT-ND" H 0   0   50  0001 C CNN "digikey#"
+F 5 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=1c0011%2C1c0002%2C1c00fa%2C1c0003%2C1c0006%2C1c0008%2C400006%2C1f140000%2Cffe00034%2Cmu39kOhms%7C2085%7C0%2Cmu39kOhms%7C2085%7C1&quantity=0&ColumnSort=1000011&page=1&stock=1&pageSize=100" H 0   0   50  0001 C CNN "digikey-search"
 	1    2250 2800
 	0    -1   -1   0   
 $EndComp
@@ -4271,6 +4276,8 @@ F 0 "R14" V 2150 2300 50  0000 C CNN
 F 1 "39k" V 2250 2300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2250 2300 60  0001 C CNN
 F 3 "" H 2250 2300 60  0001 C CNN
+F 4 "RMCF0805JT39K0CT-ND" H 0   0   50  0001 C CNN "digikey#"
+F 5 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=1c0011%2C1c0002%2C1c00fa%2C1c0003%2C1c0006%2C1c0008%2C400006%2C1f140000%2Cffe00034%2Cmu39kOhms%7C2085%7C0%2Cmu39kOhms%7C2085%7C1&quantity=0&ColumnSort=1000011&page=1&stock=1&pageSize=100" H 0   0   50  0001 C CNN "digikey-search"
 	1    2250 2300
 	0    -1   -1   0   
 $EndComp
@@ -4285,6 +4292,8 @@ F 0 "R12" V 2150 1850 50  0000 C CNN
 F 1 "39k" V 2250 1850 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2250 1850 60  0001 C CNN
 F 3 "" H 2250 1850 60  0001 C CNN
+F 4 "RMCF0805JT39K0CT-ND" H 0   0   50  0001 C CNN "digikey#"
+F 5 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?FV=1c0011%2C1c0002%2C1c00fa%2C1c0003%2C1c0006%2C1c0008%2C400006%2C1f140000%2Cffe00034%2Cmu39kOhms%7C2085%7C0%2Cmu39kOhms%7C2085%7C1&quantity=0&ColumnSort=1000011&page=1&stock=1&pageSize=100" H 0   0   50  0001 C CNN "digikey-search"
 	1    2250 1850
 	0    -1   -1   0   
 $EndComp
@@ -4637,6 +4646,9 @@ F 0 "U1" H 5700 6200 60  0000 C CNN
 F 1 "STM32F40X_LQFP64" H 5750 1550 60  0000 C CNN
 F 2 "CRF1:lqfp64_pad_mod" H 5750 3900 60  0001 C CNN
 F 3 "" H 5750 3900 60  0001 C CNN
+F 4 "497-17428-ND" H 0   0   50  0001 C CNN "digikey#"
+F 5 "https://www.digikey.com/products/en/integrated-circuits-ics/embedded-microcontrollers/685?k=STM32F40&k=&pkeyword=STM32F40&wrapfilterschooser=0&sv=0&pv16=1120&sf=1&FV=ffe002ad%2C1c0011%2C1c0002&ColumnSort=1000011&page=1&stock=1&quantity=1&pageSize=100" H 0   0   50  0001 C CNN "digikey-search"
+F 6 "STM32F401RBT6" H 0   0   50  0001 C CNN "manf#"
 	1    5750 3900
 	1    0    0    -1  
 $EndComp

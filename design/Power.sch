@@ -12191,6 +12191,7 @@ F 0 "R8" V 5643 2150 50  0000 C CNN
 F 1 "100k" V 5734 2150 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5780 2150 50  0001 C CNN
 F 3 "~" H 5850 2150 50  0001 C CNN
+F 4 "RMCF0805FT100KCT-ND" H 0   0   50  0001 C CNN "digikey#"
 	1    5850 2150
 	-1   0    0    1   
 $EndComp
@@ -12320,6 +12321,8 @@ F 0 "U2" H 5250 4967 50  0000 C CNN
 F 1 "DRV8323RS" H 5250 4876 50  0000 C CNN
 F 2 "Package_DFN_QFN:Texas_S-PVQFN-N48_EP5.15x5.15mm_ThermalVias" H 5250 3500 50  0001 L CNN
 F 3 "" H 5250 3500 50  0001 L CNN
+F 4 "296-47769-1-ND" H 0   0   50  0001 C CNN "digikey#"
+F 5 "DRV8323RSRGZR" H 0   0   50  0001 C CNN "manf#"
 	1    5250 3500
 	1    0    0    -1  
 $EndComp
@@ -12455,7 +12458,7 @@ U 1 1 5CE0997F
 P 3600 3000
 F 0 "C23" H 3513 3046 50  0000 R CNN
 F 1 "10u 50V" H 3513 2955 50  0000 R CNN
-F 2 "" H 3600 3000 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3600 3000 50  0001 C CNN
 F 3 "~" H 3600 3000 50  0001 C CNN
 F 4 "1276-6736-1-ND" H 0   0   50  0001 C CNN "digikey#"
 F 5 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pkeyword=&wrapfilterschooser=1&sv=0&pv2049=u10%C2%B5F&sf=0&FV=1c0011%2C1c0002%2C1c00fa%2C1c0112%2C1c0003%2C1c0006%2C1c0008%2C380020%2C1f140000%2Cffe0003c&ColumnSort=1000011&page=1&stock=1&quantity=&pageSize=100" H 0   0   50  0001 C CNN "digikey-search"

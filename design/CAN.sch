@@ -1396,6 +1396,8 @@ F 0 "R402" H 6550 4600 40  0000 C CNN
 F 1 "10k" V 6407 4601 40  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6330 4600 30  0001 C CNN
 F 3 "" H 6400 4600 30  0000 C CNN
+F 4 "https://www.digikey.com/products/en/resistors/chip-resistor-surface-mount/52?k=&pkeyword=&wrapfilterschooser=1&sv=0&pv16=6&sf=1&FV=1c0011%2C1c0002%2C1c00fa%2C1c0003%2C1c0006%2C1c0008%2C1f140000%2Cffe00034%2Cmu10+kOhms%7C2085&ColumnSort=0&page=1&stock=1&quantity=&pageSize=100" H 0   0   50  0001 C CNN "digikey-search"
+F 5 "RMCF0805JT10K0CT-ND" H 0   0   50  0001 C CNN "digikey#"
 	1    6400 4600
 	1    0    0    -1  
 $EndComp
@@ -1479,6 +1481,8 @@ F 0 "U401" H 5600 4350 40  0000 C CNN
 F 1 "SN65HVD232" H 6100 3750 40  0000 C CNN
 F 2 "CRF1:SOIC-8-W" H 5850 4050 35  0001 C CIN
 F 3 "" H 5850 4050 60  0000 C CNN
+F 4 "296-26344-1-ND" H 0   0   50  0001 C CNN "digikey#"
+F 5 "SN65HVD232DR" H 0   0   50  0001 C CNN "manf#"
 	1    5850 4050
 	-1   0    0    -1  
 $EndComp
