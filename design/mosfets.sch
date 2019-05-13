@@ -1422,4 +1422,10 @@ Wire Wire Line
 	4900 4650 4750 4650
 Wire Wire Line
 	4900 4850 4750 4850
+Text Label 5050 4250 0    50   ~ 0
+L1_S
+Text Label 6600 4250 0    50   ~ 0
+L2_S
+Text Label 8200 4250 0    50   ~ 0
+L3_S
 $EndSCHEMATC

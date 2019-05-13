@@ -11733,9 +11733,9 @@ Wire Wire Line
 Wire Wire Line
 	4450 2500 4450 2400
 Wire Wire Line
-	4450 2400 4350 2400
+	4450 2400 4350 2350
 Wire Wire Line
-	4350 2600 4650 2600
+	4350 2550 4650 2600
 Wire Wire Line
 	3900 2650 4500 2650
 Wire Wire Line
@@ -11804,23 +11804,23 @@ F 3 "" H 6600 4400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	4050 2100 4050 2150
+	4050 2100 4000 2150
 Wire Wire Line
-	4050 2150 4300 2150
+	4000 2150 4300 2150
 Wire Wire Line
 	4500 2150 4500 2400
-Connection ~ 4050 2150
+Connection ~ 4000 2150
 $Comp
 L power:GND #PWR0109
 U 1 1 5D5FD19B
-P 4050 2350
+P 4000 2350
 AR Path="/504F83BE/5D5FD19B" Ref="#PWR0109"  Part="1" 
 AR Path="/5D7BD396/5D5FD19B" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0109" H 4050 2100 50  0001 C CNN
-F 1 "GND" V 4055 2222 50  0000 R CNN
-F 2 "" H 4050 2350 50  0001 C CNN
-F 3 "" H 4050 2350 50  0001 C CNN
-	1    4050 2350
+F 0 "#PWR0109" H 4000 2100 50  0001 C CNN
+F 1 "GND" V 4005 2222 50  0000 R CNN
+F 2 "" H 4000 2350 50  0001 C CNN
+F 3 "" H 4000 2350 50  0001 C CNN
+	1    4000 2350
 	0    1    1    0   
 $EndComp
 Text HLabel 4650 4500 0    60   Output ~ 0
@@ -11863,21 +11863,7 @@ Wire Wire Line
 Wire Wire Line
 	5850 3600 6300 3600
 Wire Wire Line
-	6300 3600 6300 3500
-Connection ~ 6300 3600
-$Comp
-L power:GND #PWR0110
-U 1 1 5D7B1097
-P 4250 1800
-AR Path="/504F83BE/5D7B1097" Ref="#PWR0110"  Part="1" 
-AR Path="/5D7BD396/5D7B1097" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0110" H 4250 1550 50  0001 C CNN
-F 1 "GND" V 4255 1672 50  0000 R CNN
-F 2 "" H 4250 1800 50  0001 C CNN
-F 3 "" H 4250 1800 50  0001 C CNN
-	1    4250 1800
-	0    1    1    0   
-$EndComp
+	6300 3600 6300 3550
 Wire Wire Line
 	4250 1800 4300 1800
 $Comp
@@ -12028,9 +12014,6 @@ Wire Wire Line
 	6800 2600 6600 2600
 Wire Wire Line
 	7800 2600 7800 2550
-Connection ~ 7800 2600
-Wire Wire Line
-	7800 2600 7950 2600
 Wire Wire Line
 	7100 2600 7200 2600
 Wire Wire Line
@@ -12042,8 +12025,6 @@ Wire Wire Line
 	7350 2600 7350 2750
 Connection ~ 7350 2600
 Wire Wire Line
-	7350 2600 7600 2600
-Wire Wire Line
 	7200 2950 7200 3050
 Wire Wire Line
 	7200 3050 7350 3050
@@ -12054,10 +12035,6 @@ Wire Wire Line
 Connection ~ 7350 3050
 Text GLabel 5850 1650 0    60   Input ~ 0
 V_SUPPLY
-Wire Wire Line
-	5850 1650 5850 2000
-Wire Wire Line
-	6050 1650 6150 1650
 Wire Wire Line
 	6150 1650 6150 1850
 Connection ~ 6150 1650
@@ -12169,33 +12146,6 @@ F 6 "445-14483-1-ND" H 7350 2850 50  0001 C CNN "digikey#"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:Net-Tie_2 NT15
-U 1 1 5CDBD5E4
-P 7700 2600
-AR Path="/504F83BE/5CDBD5E4" Ref="NT15"  Part="1" 
-AR Path="/5D7BD396/5CDBD5E4" Ref="NT?"  Part="1" 
-F 0 "NT15" V 7700 2644 50  0001 L CNN
-F 1 "Net-Tie_2" H 7700 2690 50  0001 C CNN
-F 2 "NetTie:NetTie-2_SMD_Pad0.5mm" H 7700 2600 50  0001 C CNN
-F 3 "~" H 7700 2600 50  0001 C CNN
-	1    7700 2600
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R8
-U 1 1 5CECF6BF
-P 5850 2150
-AR Path="/504F83BE/5CECF6BF" Ref="R8"  Part="1" 
-AR Path="/5D7BD396/5CECF6BF" Ref="R?"  Part="1" 
-F 0 "R8" V 5643 2150 50  0000 C CNN
-F 1 "100k" V 5734 2150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5780 2150 50  0001 C CNN
-F 3 "~" H 5850 2150 50  0001 C CNN
-F 4 "RMCF0805FT100KCT-ND" H 0   0   50  0001 C CNN "digikey#"
-	1    5850 2150
-	-1   0    0    1   
-$EndComp
-$Comp
 L Device:C_Small C8
 U 1 1 5CF50F0B
 P 6400 1850
@@ -12219,22 +12169,9 @@ AR Path="/504F83BE/5D39DD33" Ref="NT1"  Part="1"
 AR Path="/5D7BD396/5D39DD33" Ref="NT?"  Part="1" 
 F 0 "NT1" H 3300 2761 50  0001 C CNN
 F 1 "Net-Tie_2" H 3300 2940 50  0001 C CNN
-F 2 "NetTie:NetTie-2_SMD_Pad0.5mm" H 3300 2850 50  0001 C CNN
+F 2 "NetTie:NetTie-2_SMD_Pad2.0mm" H 3300 2850 50  0001 C CNN
 F 3 "~" H 3300 2850 50  0001 C CNN
 	1    3300 2850
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:Net-Tie_2 NT4
-U 1 1 5D756BB9
-P 6400 3600
-AR Path="/504F83BE/5D756BB9" Ref="NT4"  Part="1" 
-AR Path="/5D7BD396/5D756BB9" Ref="NT?"  Part="1" 
-F 0 "NT4" H 6400 3511 50  0001 C CNN
-F 1 "Net-Tie_2" H 6400 3690 50  0001 C CNN
-F 2 "NetTie:NetTie-2_SMD_Pad0.5mm" H 6400 3600 50  0001 C CNN
-F 3 "~" H 6400 3600 50  0001 C CNN
-	1    6400 3600
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -12285,14 +12222,14 @@ $EndComp
 $Comp
 L Device:Net-Tie_2 NT2
 U 1 1 5D5FCD5D
-P 4050 2250
+P 4000 2250
 AR Path="/504F83BE/5D5FCD5D" Ref="NT2"  Part="1" 
 AR Path="/5D7BD396/5D5FCD5D" Ref="NT?"  Part="1" 
-F 0 "NT2" H 4050 2161 50  0001 C CNN
-F 1 "Net-Tie_2" H 4050 2340 50  0001 C CNN
-F 2 "NetTie:NetTie-2_SMD_Pad0.5mm" H 4050 2250 50  0001 C CNN
-F 3 "~" H 4050 2250 50  0001 C CNN
-	1    4050 2250
+F 0 "NT2" H 4000 2161 50  0001 C CNN
+F 1 "Net-Tie_2" H 4000 2340 50  0001 C CNN
+F 2 "NetTie:NetTie-2_SMD_Pad0.5mm" H 4000 2250 50  0001 C CNN
+F 3 "~" H 4000 2250 50  0001 C CNN
+	1    4000 2250
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -12346,17 +12283,18 @@ $EndComp
 $Comp
 L Device:C_Small C4
 U 1 1 5D22AA19
-P 4350 2500
+P 4350 2450
 AR Path="/504F83BE/5D22AA19" Ref="C4"  Part="1" 
 AR Path="/5D7BD396/5D22AA19" Ref="C?"  Part="1" 
-F 0 "C4" H 4259 2546 50  0000 R CNN
-F 1 "47n 50V low-ESR" H 4259 2455 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4350 2500 50  0001 C CNN
-F 3 "~" H 4350 2500 50  0001 C CNN
-F 4 "399-8092-1-ND" H 0   0   50  0001 C CNN "digikey#"
-F 5 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pkeyword=&wrapfilterschooser=1&sv=0&pv16=6&sf=1&FV=1437e4%2C143aba%2C142369%2C1c0011%2C1c0002%2C1c00fa%2C1c0112%2C1c0003%2C1c0006%2C1c0008%2C1f140000%2Cffe0003c%2Cmu0.047%C2%B5F%7C2049&ColumnSort=0&page=1&stock=1&quantity=&pageSize=100" H 0   0   50  0001 C CNN "digikey-search"
-F 6 "C0805C473J3GACTU" H 0   0   50  0001 C CNN "manf#"
-	1    4350 2500
+F 0 "C4" H 4442 2541 50  0000 L CNN
+F 1 "47n 50V low-ESR" H 4442 2450 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4350 2450 50  0001 C CNN
+F 3 "~" H 4350 2450 50  0001 C CNN
+F 4 "399-8092-1-ND" H 0   -50 50  0001 C CNN "digikey#"
+F 5 "https://www.digikey.com/products/en/capacitors/ceramic-capacitors/60?k=&pkeyword=&wrapfilterschooser=1&sv=0&pv16=6&sf=1&FV=1437e4%2C143aba%2C142369%2C1c0011%2C1c0002%2C1c00fa%2C1c0112%2C1c0003%2C1c0006%2C1c0008%2C1f140000%2Cffe0003c%2Cmu0.047%C2%B5F%7C2049&ColumnSort=0&page=1&stock=1&quantity=&pageSize=100" H 0   -50 50  0001 C CNN "digikey-search"
+F 6 "C0805C473J3GACTU" H 0   -50 50  0001 C CNN "manf#"
+F 7 "Csw" H 4442 2359 50  0000 L CNN "Identifier"
+	1    4350 2450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -12408,15 +12346,15 @@ $EndComp
 $Comp
 L Device:Net-Tie_2 NT3
 U 1 1 5CF76FC3
-P 5950 1650
+P 6000 1650
 AR Path="/504F83BE/5CF76FC3" Ref="NT3"  Part="1" 
 AR Path="/5D7BD396/5CF76FC3" Ref="NT?"  Part="1" 
-F 0 "NT3" V 5950 1694 50  0001 L CNN
-F 1 "Net-Tie_2" H 5950 1740 50  0001 C CNN
-F 2 "NetTie:NetTie-2_SMD_Pad0.5mm" H 5950 1650 50  0001 C CNN
-F 3 "~" H 5950 1650 50  0001 C CNN
-	1    5950 1650
-	-1   0    0    1   
+F 0 "NT3" V 6000 1694 50  0001 L CNN
+F 1 "Net-Tie_2" H 6000 1740 50  0001 C CNN
+F 2 "NetTie:NetTie-2_SMD_Pad2.0mm" H 6000 1650 50  0001 C CNN
+F 3 "~" H 6000 1650 50  0001 C CNN
+	1    6000 1650
+	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:R R7
@@ -12466,4 +12404,45 @@ F 6 "CL31A106MBHNNNE" H 0   0   50  0001 C CNN "manf#"
 	1    3600 3000
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:GNDPWR #PWR0110
+U 1 1 5CF0C583
+P 4250 1800
+AR Path="/504F83BE/5CF0C583" Ref="#PWR0110"  Part="1" 
+AR Path="/5D7BD396/5CF0C583" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0110" H 4250 1600 50  0001 C CNN
+F 1 "GNDPWR" V 4254 1691 50  0000 R CNN
+F 2 "" H 4250 1750 50  0001 C CNN
+F 3 "" H 4250 1750 50  0001 C CNN
+	1    4250 1800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5850 2300 5850 2400
+Connection ~ 5850 2400
+Text Label 6150 2300 0    50   ~ 0
+VIN
+Wire Wire Line
+	5900 1650 5850 1650
+Wire Wire Line
+	6100 1650 6150 1650
+Wire Wire Line
+	6100 1650 6100 1850
+Wire Wire Line
+	6100 1850 6150 1850
+Connection ~ 6100 1650
+Wire Wire Line
+	7350 2600 7800 2600
+Connection ~ 7800 2600
+Wire Wire Line
+	7800 2600 7950 2600
+Wire Wire Line
+	6300 3550 6500 3550
+Wire Wire Line
+	6500 3550 6500 3600
+Connection ~ 6300 3550
+Wire Wire Line
+	6300 3550 6300 3500
+Text Label 6400 2600 0    50   ~ 0
+SW
 $EndSCHEMATC

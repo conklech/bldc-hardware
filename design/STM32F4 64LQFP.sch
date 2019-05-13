@@ -4638,20 +4638,6 @@ Wire Wire Line
 	8900 4300 8900 4350
 Wire Wire Line
 	9300 4300 9300 4450
-$Comp
-L crf_1:STM32F40X_LQFP64 U1
-U 1 1 53F757A7
-P 5750 3900
-F 0 "U1" H 5700 6200 60  0000 C CNN
-F 1 "STM32F40X_LQFP64" H 5750 1550 60  0000 C CNN
-F 2 "CRF1:lqfp64_pad_mod" H 5750 3900 60  0001 C CNN
-F 3 "" H 5750 3900 60  0001 C CNN
-F 4 "497-17428-ND" H 0   0   50  0001 C CNN "digikey#"
-F 5 "https://www.digikey.com/products/en/integrated-circuits-ics/embedded-microcontrollers/685?k=STM32F40&k=&pkeyword=STM32F40&wrapfilterschooser=0&sv=0&pv16=1120&sf=1&FV=ffe002ad%2C1c0011%2C1c0002&ColumnSort=1000011&page=1&stock=1&quantity=1&pageSize=100" H 0   0   50  0001 C CNN "digikey-search"
-F 6 "STM32F401RBT6" H 0   0   50  0001 C CNN "manf#"
-	1    5750 3900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7000 4450 9300 4450
 Connection ~ 9300 4450
@@ -4752,5 +4738,19 @@ F 2 "" H 10100 4650 50  0001 C CNN
 F 3 "~" H 10100 4650 50  0001 C CNN
 	1    10100 4650
 	0    1    1    0   
+$EndComp
+$Comp
+L crf_1:STM32F40X_LQFP64 U1
+U 1 1 53F757A7
+P 5750 3900
+F 0 "U1" H 5700 6200 60  0000 C CNN
+F 1 "STM32F40X_LQFP64" H 5750 1550 60  0000 C CNN
+F 2 "CRF1:lqfp64_pad_mod" H 5750 3900 60  0001 C CNN
+F 3 "" H 5750 3900 60  0001 C CNN
+F 4 "497-17428-ND" H 0   0   50  0001 C CNN "digikey#"
+F 5 "https://www.digikey.com/products/en/integrated-circuits-ics/embedded-microcontrollers/685?k=STM32F40&k=&pkeyword=STM32F40&wrapfilterschooser=0&sv=0&pv16=1120&sf=1&FV=ffe002ad%2C1c0011%2C1c0002&ColumnSort=1000011&page=1&stock=1&quantity=1&pageSize=100" H 0   0   50  0001 C CNN "digikey-search"
+F 6 "STM32F401RBT6" H 0   0   50  0001 C CNN "manf#"
+	1    5750 3900
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
